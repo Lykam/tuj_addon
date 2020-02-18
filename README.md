@@ -1,1 +1,1 @@
-This is a quick and dirty Chrome Extension that calculates an approximate profit between the current price and material cost.
+A small Chrome extension that quickly calculates a rough profit based on the current sale price and the material cost of an item.
