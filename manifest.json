@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "TUJ Quick Profit",
+  "version": "2.0.0",
+  "description": "Visualize Quick Profit for TUJ.",
+  "permissions": ["tabs", "*://theunderminejournal.com/*", "storage"], 
+ 
+  "content_scripts": [{
+    "js": ["tujJS.js"],
+    "matches": ["*://theunderminejournal.com/*"],
+    "run_at": "document_end"
+  }]
+}
